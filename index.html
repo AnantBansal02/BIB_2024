@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Store</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">
+      <h2>Clothing Store</h2>
+    </a>
+    <!-- Use an img tag to display the theme toggle image -->
+    <img id="theme-toggle" src="" alt="Theme Toggle" onclick="toggleTheme()">
+    <!-- Your cart icon and other elements -->
+    <a href="about.html">
+      <h2>About Me</h2>
+    </a>
+    <a href="cart.html">
+      <div class="cart">
+        <img class="cart" id="cartimg" src="assets/cart.png" alt="">
+        <div id="cartAmount" class="cartAmount">0</div>
+      </div>
+    </a>
+    
+  </div>
+
+  <div class="shop" id="shop">
+    <!-- Your shop items will be dynamically generated here -->
+  </div>
+
+  <!-- Include your JavaScript file -->
+  <script src="src/Data.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
